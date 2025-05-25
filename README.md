@@ -24,16 +24,16 @@ Each service is independent, testable, and designed for integration into the Mar
 ```
 maraya-services/
 ├── infrastructure_scanner/ # Service for scanning client infrastructure
-│ ├── subdomains_finder.py
+│ ├── scanner.py
 │ └── ...
 ├── web_crawler/ # Service for crawling public, deep, and dark web
-│ ├── crawler.py
+│ ├── subdomains_finder.py
 │ └── ...
 ├── tests/
 │ ├── infrastructure_scanner/
-│ │ └── test_subdomains_finder.py
+│ │ └── test_scanner.py
 │ └── web_crawler/
-│ └── test_crawler.py
+│ └── test_subdomains_finder.py
 ├── requirements.txt
 ├── README.md
 └── .env.example
