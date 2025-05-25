@@ -32,8 +32,10 @@ maraya-services/
 ├── tests/
 │ ├── infrastructure_scanner/
 │ │ └── test_scanner.py
+│ | └── ...
 │ └── web_crawler/
 │ └── test_subdomains_finder.py
+│ | └── ...
 ├── requirements.txt
 ├── README.md
 └── .env.example
