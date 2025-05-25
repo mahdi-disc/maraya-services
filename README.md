@@ -21,7 +21,6 @@ Each service is independent, testable, and designed for integration into the Mar
 
 ## 📁 Folder Structure
 
-bash 
 ```
 maraya-services/
 ├── infrastructure_scanner/ # Service for scanning client infrastructure
