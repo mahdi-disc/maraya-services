@@ -38,5 +38,5 @@ maraya-services/
 │ | └── ...
 ├── requirements.txt
 ├── README.md
-└── .env.example
+└── .gitignore
 ```
