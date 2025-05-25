@@ -57,8 +57,9 @@ pytest
 ### 📬 Submitting a Pull Request
 
 1. Push your changes to your forked repository.
-2. Open a pull request to `main` with a clear description of what you’ve done.
-3. Link the relevant issue in the PR description.
+2. Open a **pull request to the `dev` branch** — **not `main`**.
+3. Include a clear description of what you’ve done.
+4. Link the relevant issue in the PR description.
 
 > 🔍 All pull requests will be reviewed before being merged.
 
