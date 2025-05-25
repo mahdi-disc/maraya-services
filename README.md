@@ -24,7 +24,6 @@ Each service is independent, testable, and designed for integration into the Mar
 ```
 maraya-services/
 ├── services/
-│   ├── __init__.py
 │   ├── infrastructure_scanner/     # Service for scanning client infrastructure
 │   │   ├── __init__.py
 │   │   ├── scanner.py
