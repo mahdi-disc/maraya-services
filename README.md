@@ -34,7 +34,7 @@ maraya-services/
 │ │ └── test_scanner.py
 │ | └── ...
 │ └── web_crawler/
-│ └── test_subdomains_finder.py
+│ | └── test_subdomains_finder.py
 │ | └── ...
 ├── requirements.txt
 ├── README.md
