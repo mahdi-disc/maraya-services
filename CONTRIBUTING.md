@@ -19,7 +19,7 @@ All new features and improvements are broken down into small, actionable **micro
 ### 🔨 2. Fork & Clone
 
 ```bash
-git clone https://github.com/your-username/maraya-services.git
+git clone https://github.com/mahdi-disc/maraya-services.git
 cd maraya-services
 ```
 
