@@ -19,3 +19,21 @@ def get_subdomains(domain):
     except Exception as e:
         return [f"Error: {str(e)}"]
 
+def crawl_real_subdomains(domains):
+    all_subdomains = {}
+
+    for domain in domains:
+        subs = get_subdomains(domain)
+        all_subdomains[domain] = subs
+
+    result = {
+        "stage": "domain_asset_discovery",
+        "inputs": {
+            "domains": domains
+        },
+        "discovered": {
+            "subdomains": all_subdomains
+        }
+    }
+
+    return result
